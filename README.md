@@ -269,18 +269,17 @@ De acuerdo con lo anterior,exploraremos acerca del lugar o lugares donde más ac
 Tenemos que: 
 El lugar con más accidentes es: AV 27 DE FEBRERO Y AV ESCALADA con 4 accidentes.
 Lugar del hecho
-AV 27 DE FEBRERO Y AV ESCALADA                                 4
-AV. DR. TRISTAN ACHAVAL RODRIGUEZ Y BLVD. AZUCENA VILLAFLOR    3
-AU PERITO MORENO Y RAMAL ENLACE AU1/AU6                        2
-CASTILLO, RAMON S., PRES. AV. Y CALLE 12                       2
-Rivadavia Av. y Pedernera                                      2
+AV 27 DE Febrero y Av Escalada                               : 4.
+AV. DR. Tristan Achaval Rodriguez y BLVD. Azucena Villaflor  : 3.
+AU Perito Moreno y Ramal Enlace AU1/AU6                      : 2.
+Castillo, Ramon S., Pres. AV. y Calle 12                     : 2.
+Rivadavia Av. y Pedernera                                    : 2.
                                                               ..
-AU DELLEPIANE Y AV. ESCALADA                                   1
-ALBARIÑO Y AV. ARGENTINA                                       1
-JUAN RAMIREZ DE VELAZCO 1211                                   1
-AV. FERNANDEZ DE LA CRUZ Y LARRAYA                             1
-PADRE CARLOS MUJICA 709                                        1
-Name: count, Length: 683, dtype: int64
+AU Dellepiane y AV. Escalada                                 : 1.
+Albariño y AV. Argentina                                     : 1.
+Juan Ramirez dE Velazco 1211                                 : 1.
+AV. Fernandez de la Cruz Y Larraya                           : 1.
+Padre Carlos Mujica 709                                      : 1.
 
 
 Acto seguido exploraremos la comuna donde más accidentes ocurren:
@@ -388,15 +387,15 @@ Pasamos a explorar el rango de edades que en mayoritariamente se ven implicadas 
 la grsfica nos muestra:
 
 Rango_Edad
-0-18       76
-19-25     106
-26-35     170
-36-45     123
-46-55      60
-56-65      70
-66-75      45
-76-85      54
-86-100     13
+0-18:      76.
+19-25:     106.
+26-35:     170.
+36-45:     123.
+46-55:     60.
+56-65:     70.
+66-75:     45.
+76-85:     54.
+86-100:    13.
 
 Al interpretar y conluir lo que en dicha grafica se visualiza, nos encontramos con: 
 
