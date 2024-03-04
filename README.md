@@ -235,7 +235,7 @@ Ahora, pasaremos a conocer el número de victimas por dia:
 
 En cuanto a la segunda grafica, La gráfica de barras "Frecuencia de Hechos por Hora" muestra la distribución de hechos o accidentes a lo largo de las diferentes horas del día, con los datos agrupados por hora. Cada barra representa una hora específica del día (de 00:00 a 23:00) y la altura de la barra indica la frecuencia de hechos que se registraron en esa hora específica.
 
-ASi las cosas y, basados en las observaciones de dicha grafica,  podemos concluir que:
+Asi las cosas y, basados en las observaciones de dicha grafica,  podemos concluir que:
 
 La mayoría de los hechos ocurren a las 07:00 horas, con un total de 41 hechos registrados, lo que la convierte en la hora con mayor frecuencia de accidentes.
 Hay una tendencia notable de mayor frecuencia de hechos durante las primeras horas de la mañana, con un pico significativo a las 07:00 horas.
@@ -262,19 +262,182 @@ Estos resultados sugieren que aunque hay casos donde los accidentes ocurren con 
 
 Lo anterior es util para comprender los patrones temporales de los accidentes y para la planificación de la gestión de la seguridad vial y la asignación de recursos para la respuesta a emergencias. ​
 
+De acuerdo con lo anterior,exploraremos acerca del lugar o lugares donde más accidentes con muertes ocurren.
+
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/1a870a00-6f92-4b6d-b015-a1cfb2055ee1)
+
+Tenemos que: 
+El lugar con más accidentes es: AV 27 DE FEBRERO Y AV ESCALADA con 4 accidentes.
+Lugar del hecho
+AV 27 DE FEBRERO Y AV ESCALADA                                 4
+AV. DR. TRISTAN ACHAVAL RODRIGUEZ Y BLVD. AZUCENA VILLAFLOR    3
+AU PERITO MORENO Y RAMAL ENLACE AU1/AU6                        2
+CASTILLO, RAMON S., PRES. AV. Y CALLE 12                       2
+Rivadavia Av. y Pedernera                                      2
+                                                              ..
+AU DELLEPIANE Y AV. ESCALADA                                   1
+ALBARIÑO Y AV. ARGENTINA                                       1
+JUAN RAMIREZ DE VELAZCO 1211                                   1
+AV. FERNANDEZ DE LA CRUZ Y LARRAYA                             1
+PADRE CARLOS MUJICA 709                                        1
+Name: count, Length: 683, dtype: int64
 
 
+Acto seguido exploraremos la comuna donde más accidentes ocurren:
+
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/2d536af7-5956-4eb9-b8e5-eed57b31ca84)
+
+De acuerdo al código generado,tenemos que nos indica que,la comuna con más accidentes es la uno (1) con 93 accidentes.  
 
 
+Exploraremos los tipos de vehiculos participantes e implicados y la frecuencia con que se dan los accidentes de transito que terminanan en muerte:
+
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/f788d62a-30b5-4ce0-b215-2ac817462f60)
+
+De la grafica anterior podemos Interpretar que:
+
+La combinación más frecuente involucra a peatones y pasajeros, con la mayor cantidad de accidentes (105).
+La siguiente categoría más común es moto-auto, lo que sugiere una alta incidencia de accidentes entre motocicletas y automóviles (84 accidentes).
+Otras combinaciones frecuentes incluyen moto-cargas y peaton-auto, lo que podría indicar áreas de preocupación específicas en la seguridad vial relacionadas con motocicletas, peatones y vehículos de carga.
+
+Conclusiones:
+
+Seguridad de Peatones y Pasajeros: Los peatones y pasajeros parecen ser los más afectados en los accidentes, lo cual podría requerir medidas de seguridad adicionales en áreas de alto tráfico peatonal y en el transporte público o privado de pasajeros.
+
+Interacciones Moto-Auto: La alta frecuencia de accidentes entre motocicletas y autos puede señalar la necesidad de mejorar la conciencia sobre la seguridad de las motocicletas y de implementar mejores prácticas de conducción para ambos tipos de vehículos.
+
+Impacto en Políticas de Tráfico: Estos datos podrían utilizarse para informar políticas de tráfico y seguridad vial, incluyendo la creación de campañas de seguridad específicas para las combinaciones de vehículos más riesgosas.
+
+Educación y Entrenamiento: Las estadísticas podrían apoyar la necesidad de programas de educación vial dirigidos a conductores de motocicletas y automóviles, así como campañas para aumentar la conciencia entre los peatones.
+
+Infraestructura de Transporte: Considerar la mejora de la infraestructura vial, como cruces peatonales más seguros, carriles exclusivos para motocicletas, y medidas para reducir la velocidad del tráfico en áreas con alta incidencia de accidentes.
+
+Continuamos con la exploracion de la frecuencia con la que se ven implicados los diferentes tipos de vehículos o victimas fatales en accidentes, según la información asociada a la columna "Víctima".
+
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/4ad255aa-f0f3-4f2b-b323-543f554548a8)
+
+La Interpretacion de la grafica nos indica que, 
+
+Motos: Con 302 menciones, las motos son el tipo de vehículo más frecuentemente mencionado en el contexto de "Víctima". Esto sugiere que las motos están involucradas en un número significativo de accidentes o incidentes reportados.
+Peatones: Los peatones aparecen con 266 menciones, lo que implica que también son un grupo considerablemente afectado en los accidentes de tráfico.
+Autos: Con 92 menciones, los autos son el tercer tipo de vehículo más común en la lista, lo que indica su participación en los accidentes pero en menor medida comparado con motos y peatones.
+Bicicletas y otros: Las bicicletas tienen 29 menciones, seguidas por categorías con menos incidencia como "sin dato", "cargas", "pasajeros", "móvil", "objeto fijo" y "peaton_moto".
+
+Conclusiones:
+
+Seguridad de Motociclistas y Peatones: Las autoridades podrían necesitar enfocarse en mejorar la seguridad vial para motociclistas y peatones, ya que representan los mayores grupos de riesgo según los datos.
+
+Campañas de Concientización: Sería beneficioso implementar campañas de conciencia y educación dirigidas a conductores de motos y autos, así como a peatones y ciclistas, para reducir el número de accidentes.
+
+Infraestructura Vial: Los datos respaldan la necesidad de revisar y posiblemente mejorar la infraestructura vial, incluyendo carriles para bicicletas y motocicletas, así como pasos peatonales seguros.
+
+Análisis de Datos Incompletos: La categoría "sin dato" sugiere que hay registros incompletos o inadecuados en la base de datos, lo que podría requerir una mejor recolección y análisis de datos en el futuro.
+
+Estrategias de Prevención: Para las categorías con menos incidencia, es importante desarrollar estrategias de prevención específicas que aborden los riesgos únicos asociados con cada tipo de vehículo y situación.
+
+Ahora pasamos a explorar la frecuencia con la que se ven implicados los diferentes roles en accidentes de transito:
+
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/d3b3ee42-21c8-4946-ba63-535951126cde)
+
+La interpretacion y conclusion de la grafica anterior son las siguientes :
+
+Interpretación:
+
+El rol de "conductor" es el más frecuentemente implicado en accidentes de tránsito, con la mayor cantidad de accidentes (330).
+El rol de "peatón" también es significativamente implicado en accidentes, con 267 incidentes.
+"Pasajero_acompañante" y "ciclista" se muestran como otros roles involucrados en accidentes, con 80 y 29 accidentes respectivamente.
+La categoría "sin dato" indica un número de registros (11) donde el rol no fue especificado o no se disponía de información.
+
+Conclusiones:
+
+Atención a Conductores: Dado que los conductores están implicados en la mayoría de los accidentes, las campañas de seguridad vial deben centrarse en la educación y el entrenamiento de los conductores, así como en la implementación de leyes de tránsito más estrictas y su cumplimiento.
+
+Protección del Peatón: La alta incidencia de peatones involucrados sugiere la necesidad de mejorar la infraestructura peatonal, como pasos de peatones, señalización y medidas de calmado de tráfico.
+
+Seguridad del Pasajero y Ciclista: La seguridad de los pasajeros y ciclistas también debe ser una prioridad, posiblemente a través de mejores prácticas de uso del cinturón de seguridad y cascos, así como la creación de carriles para bicicletas.
+
+Datos Incompletos: La presencia de una categoría "sin dato" subraya la importancia de mejorar la recopilación de datos en la escena del accidente para informar mejor las políticas de seguridad vial.
 
 
+Pasamos a explorar el genero que con mayor frecuencia se ve implicado en accidentes de transito:
 
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/062fbcb0-a3fc-401b-ac55-e7bc27b02a89)
 
+Frente a la anterior grafica tenemos tambien: 
 
+Interpretación:
 
+La categoría "masculino" tiene significativamente más accidentes reportados con un total de 545.
+La categoría "femenino" tiene un total de 166 accidentes.
+Hay un pequeño número (6) de registros donde el género no fue reportado o no está disponible.
 
+Conclusiones:
 
+Predominancia Masculina en Accidentes: El género masculino está involucrado en una cantidad mucho mayor de accidentes de tránsito en comparación con el género femenino. Esto puede deberse a varios factores, incluyendo una mayor proporción de conductores masculinos o diferencias en los patrones de comportamiento de conducción.
+
+Importancia de Datos Completos: La presencia de una categoría "sin dato" aunque pequeña, destaca la importancia de una recopilación de datos completa y precisa en la escena del accidente para comprender mejor las dinámicas de género en los accidentes de tránsito.
+
+Implicaciones para Políticas de Seguridad Vial: Estos datos pueden ser útiles para las autoridades de tráfico al desarrollar políticas de seguridad vial y programas educativos dirigidos específicamente a los conductores masculinos, dado que son más propensos a estar involucrados en accidentes.
+
+Investigación Adicional: Sería beneficioso realizar investigaciones adicionales para entender las razones detrás de la disparidad de género en los accidentes de tránsito y abordar las causas subyacentes a través de la educación, la legislación y la infraestructura vial.
   
+Pasamos a explorar el rango de edades que en mayoritariamente se ven implicadas las personas en accidentes que terminan en muerte:
 
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/f967a3ef-4843-4d5e-839b-9ac97773ffc8)
 
-                   
+la grsfica nos muestra:
+
+Rango_Edad
+0-18       76
+19-25     106
+26-35     170
+36-45     123
+46-55      60
+56-65      70
+66-75      45
+76-85      54
+86-100     13
+
+Al interpretar y conluir lo que en dicha grafica se visualiza, nos encontramos con: 
+
+Interpretación:
+
+El rango de edad con la mayor cantidad de accidentes es el de 26-35  años, lo que sugiere que los adultos jovenes están significativamente más involucrados en accidentes de tránsito que otros grupos de edad.
+Los rangos de edad de 19-25 y 36-45 también muestran una alta frecuencia de accidentes, aunque en menor medida que el grupo de 26-35 años.
+
+Los rangos de edad más bajos (0-18) y más altos (66-75,76-85 y 86-100) tienen la menor frecuencia de accidentes.
+Existe una tendencia general a que la frecuencia de accidentes disminuya a medida que aumenta la edad de los individuos involucrados.
+
+Conclusiones:
+
+Foco en la Educación de Jóvenes Conductores: Los datos indican la necesidad de centrarse en la educación y formación de los conductores que son adultos jóvenes, especialmente en el rango de 26 a 35 años, para reducir la incidencia de accidentes.
+
+Medidas Preventivas para Adultos Jóvenes: Las autoridades podrían considerar implementar medidas preventivas específicas para los conductores en los rangos de edad de 19-25 y 36-45 años, como campañas de concienciación y control de tráfico más estricto.
+
+Revisión de Políticas de Licencias: La alta frecuencia de accidentes en edades tempranas podría justificar una revisión de las políticas de licencias de conducir y los requisitos para obtenerlas, incluyendo quizás programas de conducción gradual o restricciones en horarios nocturnos.
+
+Inclusión de Adultos Mayores en Programas de Seguridad: Aunque los grupos de mayor edad tienen menos accidentes, sigue siendo importante incluirlos en programas de seguridad vial, enfocándose en mantener habilidades de conducción seguras y en considerar la transición a dejar de conducir cuando sea apropiado.
+
+Finalmente, pasamos a explorar el rol que más se percibe inicialmente acusado en accidentes de transito, que terminan con muerte:
+
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/12197496-e479-48a3-891c-21bfbde71762)
+
+ De acuerdo con la grafica de barras tenemos que su interpretacion y conclusiones son las siguientes:  
+
+ Interpretación:
+
+El rol de "auto" es el más frecuentemente acusado en accidentes de tránsito, con 210 incidentes.
+Los "pasajeros" y los vehículos de "cargas" también tienen un alto número de acusaciones, con 178 y 150 incidentes respectivamente.
+Se observa una cantidad menor de acusaciones para roles como "moto" y "objeto fijo", con 58 y 67 incidentes.
+Hay casos donde no se ha proporcionado dato sobre el rol acusado ("sin dato") o donde se han implicado múltiples roles ("múltiple").
+Roles como "bicicleta", "otro", y "tren" tienen la menor frecuencia de acusaciones.
+
+Conclusiones:
+
+Responsabilidad del Conductor de Automóvil: Dado que los conductores de automóviles representan la mayoría de las acusaciones, es crucial enfocar las medidas de seguridad y educación vial en este grupo para reducir su involucramiento en accidentes.
+
+Protección para Pasajeros y Transporte de Carga: Es importante garantizar la seguridad de los pasajeros y los vehículos de carga, posiblemente a través de regulaciones más estrictas y controles de seguridad mejorados.
+
+Importancia de la Información Completa: La presencia de categorías como "sin dato" subraya la necesidad de una documentación exhaustiva en los informes de accidentes para permitir análisis más precisos y medidas de prevención adecuadas.
+
+Consideración de Todos los Usuarios de la Vía: A pesar de que los roles como "bicicleta", "otro", y "tren" tienen menos acusaciones, es esencial incluir la seguridad de todos los usuarios de la vía en las estrategias de prevención de accidentes.
