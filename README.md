@@ -267,7 +267,7 @@ De acuerdo con lo anterior,exploraremos acerca del lugar o lugares donde más ac
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/1a870a00-6f92-4b6d-b015-a1cfb2055ee1)
 
 Tenemos que: 
-El lugar con más accidentes es: AV 27 DE FEBRERO Y AV ESCALADA con 4 accidentes.
+El lugar con más accidentes es: AV 27 de Febrero y AV Escalada con 4 accidentes.
 Lugar del hecho
 AV 27 DE Febrero y Av Escalada                               : 4.
 AV. DR. Tristan Achaval Rodriguez y BLVD. Azucena Villaflor  : 3.
@@ -384,7 +384,7 @@ Pasamos a explorar el rango de edades que en mayoritariamente se ven implicadas 
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/f967a3ef-4843-4d5e-839b-9ac97773ffc8)
 
-la grsfica nos muestra:
+la grafica nos muestra:
 
 Rango_Edad
 0-18:      76.
