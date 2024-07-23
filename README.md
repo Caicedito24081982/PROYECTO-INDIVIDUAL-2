@@ -34,7 +34,7 @@ Dada la alta incidencia de siniestros viales y su impacto en la seguridad públi
 
 ## Data:
 
-Para este proyecto se trabajó con la Bases de Víctimas Fatales en Siniestros Viales que se encuentra en formato de Excel y contiene dos pestañas de datos:
+## Para este proyecto se trabajó con la Bases de Víctimas Fatales en Siniestros Viales que se encuentra en formato de Excel y contiene dos pestañas de datos:
 
 HECHOS: que contiene una fila de hecho con id único y las variables temporales, espaciales y participantes asociadas al mismo.
 
@@ -48,7 +48,7 @@ VICTIMAS: contiene una fila por cada víctima de los hechos y las variables edad
 
 Nos permitimos realizar un pequeño análisis exploratorio generalizado del DataFrame de la hoja "Hechos" con el fin de identificar las columnas con datos faltantes. Luego de ello, procederemos a obtener resultados en función de las diferentes variables, es decir, columnas, y los datos introducidos en cada una de ellas:
 
-De acuerdo a las tres (3) imagenes siguientes, enemos en la primera de ellas: un mapa de calor de valores faltantes en un conjunto de datos. En este tipo de visualización, los colores representan la presencia o ausencia de datos en un conjunto de datos, a menudo utilizado para identificar patrones de datos faltantes: 
+De acuerdo a las tres (3) imagenes siguientes, tenemos en la primera de ellas: un mapa de calor de valores faltantes en un conjunto de datos. En este tipo de visualización, los colores representan la presencia o ausencia de datos en un conjunto de datos, a menudo utilizado para identificar patrones de datos faltantes: 
 
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/7be73edb-a087-4cc2-83b0-d34da4812cc7)
@@ -81,7 +81,7 @@ La gráfica muestra que la gran mayoría de los hechos tienen 1 víctima, ya que
 
 La conclusión principal de este histograma es que la mayoría de los hechos tienen 1 víctima y que los hechos con 2 o más víctimas son mucho menos comunes en este conjunto de datos.
 
-De acuerdo con lo manterior, se conocerá la cantidad total de hechos registrados por  año desde el 2016 hasta el 2021:
+## De acuerdo con lo manterior, se conocerá la cantidad total de hechos registrados por  año desde el 2016 hasta el 2021:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/00937193-bd0a-43bb-80bc-a83e5005a625)
 
@@ -157,13 +157,13 @@ Investigación de Causas: Para semanas con un número inusualmente alto de hecho
 Medidas Preventivas: Identificar semanas con altos números de hechos podría ayudar en el desarrollo e implementación de campañas de seguridad y medidas preventivas.
 
 
-Nos permitimos conocer a través de una grafica, la visualizacion de hechos registrados por dia:
+## Nos permitimos conocer a través de una grafica, la visualizacion de hechos registrados por dia:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/2be090f3-ecbb-4b54-a5fa-8e82c0522f4e)
 
 El gráfico de líneas con marcadores que representa la cantidad de hechos (accidentes) registrados por día a lo largo del tiempo. Cada punto en la línea representa la cantidad de hechos en un día específico.
 
-Interpretación y conclusiones basadas en la gráfica:
+## Interpretación y conclusiones basadas en la gráfica:
 
 Periodicidad y Tendencia: La gráfica muestra datos a lo largo de varios años, desde 2015 hasta 2022. No hay una tendencia clara que indique un aumento o disminución sistemática de hechos a lo largo del tiempo.
 
@@ -183,7 +183,7 @@ Ahora, pasaremos a conocer la cantidad de vicitimas por año, desde el 2016 hast
 
 histograma de barras anterior, nos muestra la cantidad de víctimas por año, específicamente para los años 2016 a 2021. Cada barra representa un año y la altura de la barra corresponde al número total de víctimas de ese año. Los números en la parte superior de cada barra indican la cantidad exacta de víctimas. De izquierda a derecha, las barras representan los años en orden ascendente, y las cifras de víctimas disminuyen progresivamente desde 2016 hasta 2021, con una ligera disminución después de 2018.
 
-Aquí están los detalles de la cantidad de víctimas por año, según se muestra en la gráfica:
+## Aquí están los detalles de la cantidad de víctimas por año, según se muestra en la gráfica:
 
 2016: 150 víctimas
 2017: 160 víctimas
@@ -192,7 +192,7 @@ Aquí están los detalles de la cantidad de víctimas por año, según se muestr
 2020: 87 víctimas
 2021: 97 víctimas
 
-Pasamos ahora, a conocer el número de victimas por mes:
+## Pasamos ahora, a conocer el número de victimas por mes:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/226a1806-737e-4712-a003-11083da16173)
 
@@ -235,7 +235,7 @@ Los valores atípicos pueden indicar semanas con números inusualmente altos o b
 
 En cuanto a la segunda grafica, La gráfica de barras "Frecuencia de Hechos por Hora" muestra la distribución de hechos o accidentes a lo largo de las diferentes horas del día, con los datos agrupados por hora. Cada barra representa una hora específica del día (de 00:00 a 23:00) y la altura de la barra indica la frecuencia de hechos que se registraron en esa hora específica.
 
-Asi las cosas y, basados en las observaciones de dicha grafica,  podemos concluir que:
+## Asi las cosas y, basados en las observaciones de dicha grafica,  podemos concluir que:
 
 La mayoría de los hechos ocurren a las 07:00 horas, con un total de 41 hechos registrados, lo que la convierte en la hora con mayor frecuencia de accidentes.
 Hay una tendencia notable de mayor frecuencia de hechos durante las primeras horas de la mañana, con un pico significativo a las 07:00 horas.
@@ -244,7 +244,7 @@ Después de las 20:00 horas, hay una ligera disminucion con otro pico menor a la
 no obstante, es imposible dejar por fuera de este analisis las horas con menos casos como son las 02:00 horas y las 13:00 horas, en las cuales la cantidad de accidentes es igual. Ello, sin lugr a dudas, nos permite expresar en principio que, la dismnucion obedece a la poca cantidad de vehiculos en las vias.Por otro lado,se debe a la cantidad de personas que a las 02:00 horas aun se encuentran durmiendo o por tratarse de un horario poco frecuente para desempeñar labores empresariales. Y, con respecto a al disminucion a las 13:00 horas, puede obedecer a que es el horario de almuerzo, por lo tanto muchas personas a esa hora no se estan  movilizando  en  sus vehiculos ni caminando por las diferentes vias.
 La conclusion final sería que existe una tendencia clara de que los hechos tienden a ocurrir más frecuentemente en las primeras horas de la mañana, especialmente alrededor de las 07:00 horas. Esto podría estar relacionado con el tráfico de la hora pico de la mañana cuando la gente se dirige a sus lugares de trabajo o estudio. La información podría ser útil para las autoridades locales con el proposito de  mejorar las medidas de seguridad vial o realizar campañas de concientización en las horas donde los hechos son más frecuentes.
 
-De acuerdo con lo anterior, surge la necesidad de conocer la distribuccion de la diferencia de tiempo entre accidente,para ello, se procede con el siguiente codigo:  
+## De acuerdo con lo anterior, surge la necesidad de conocer la distribuccion de la diferencia de tiempo entre accidente,para ello, se procede con el siguiente codigo:  
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/9382b142-38af-495b-9433-8c7558d7e622)
 
@@ -282,18 +282,18 @@ AV. Fernandez de la Cruz Y Larraya                           : 1.
 Padre Carlos Mujica 709                                      : 1.
 
 
-Acto seguido exploraremos la comuna donde más accidentes ocurren:
+## Acto seguido exploraremos la comuna donde más accidentes ocurren:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/2d536af7-5956-4eb9-b8e5-eed57b31ca84)
 
 De acuerdo al código generado,tenemos que nos indica que,la comuna con más accidentes es la uno (1) con 93 accidentes.  
 
 
-Exploraremos los tipos de vehiculos participantes e implicados y la frecuencia con que se dan los accidentes de transito que terminanan en muerte:
+## Exploraremos los tipos de vehiculos participantes e implicados y la frecuencia con que se dan los accidentes de transito que terminanan en muerte:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/f788d62a-30b5-4ce0-b215-2ac817462f60)
 
-De la grafica anterior podemos Interpretar que:
+## De la grafica anterior podemos Interpretar que:
 
 La combinación más frecuente involucra a peatones y pasajeros, con la mayor cantidad de accidentes (105).
 La siguiente categoría más común es moto-auto, lo que sugiere una alta incidencia de accidentes entre motocicletas y automóviles (84 accidentes).
@@ -338,7 +338,7 @@ Ahora pasamos a explorar la frecuencia con la que se ven implicados los diferent
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/d3b3ee42-21c8-4946-ba63-535951126cde)
 
-La interpretacion y conclusion de la grafica anterior son las siguientes :
+## La interpretacion y conclusion de la grafica anterior son las siguientes :
 
 ## Interpretación:
 
@@ -358,11 +358,11 @@ Seguridad del Pasajero y Ciclista: La seguridad de los pasajeros y ciclistas tam
 Datos Incompletos: La presencia de una categoría "sin dato" subraya la importancia de mejorar la recopilación de datos en la escena del accidente para informar mejor las políticas de seguridad vial.
 
 
-Pasamos a explorar el genero que con mayor frecuencia se ve implicado en accidentes de transito:
+## Pasamos a explorar el genero que con mayor frecuencia se ve implicado en accidentes de transito:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/062fbcb0-a3fc-401b-ac55-e7bc27b02a89)
 
-Frente a la anterior grafica tenemos tambien: 
+## Frente a la anterior grafica tenemos tambien: 
 
 ## Interpretación:
 
@@ -399,7 +399,7 @@ Rango_Edad
 
 Al interpretar y conluir lo que en dicha grafica se visualiza, nos encontramos con: 
 
-Interpretación:
+## Interpretación:
 
 El rango de edad con la mayor cantidad de accidentes es el de 26-35  años, lo que sugiere que los adultos jovenes están significativamente más involucrados en accidentes de tránsito que otros grupos de edad.
 Los rangos de edad de 19-25 y 36-45 también muestran una alta frecuencia de accidentes, aunque en menor medida que el grupo de 26-35 años.
@@ -407,7 +407,7 @@ Los rangos de edad de 19-25 y 36-45 también muestran una alta frecuencia de acc
 Los rangos de edad más bajos (0-18) y más altos (66-75,76-85 y 86-100) tienen la menor frecuencia de accidentes.
 Existe una tendencia general a que la frecuencia de accidentes disminuya a medida que aumenta la edad de los individuos involucrados.
 
-Conclusiones:
+## Conclusiones:
 
 Foco en la Educación de Jóvenes Conductores: Los datos indican la necesidad de centrarse en la educación y formación de los conductores que son adultos jóvenes, especialmente en el rango de 26 a 35 años, para reducir la incidencia de accidentes.
 
