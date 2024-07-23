@@ -10,7 +10,7 @@
                    
                    
 
-Introduccion:
+## Introduccion:
 
 Este proyecto se llevó a cabo con el objetivo de realizar un análisis de datos para el Observatorio de Movilidad y Seguridad Vial (OMSV), que opera bajo la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA).
 
@@ -20,7 +20,7 @@ Una métrica crucial para evaluar la seguridad vial en una región son las tasas
 
 Para llevar a cabo este análisis, se utilizan datos derivados de un conjunto de datos que contiene información sobre homicidios por accidentes de tráfico en la Ciudad de Buenos Aires durante los años 2016-2021. Estos datos son de acceso público y se pueden encontrar en la página oficial de la CABA, específicamente en la sección de Datos Oficiales.
 
-Contexto: 
+## Contexto: 
 
 Los siniestros viales, que pueden involucrar vehículos en las vías públicas, son eventos con diversas causas, como colisiones entre automóviles, motocicletas, bicicletas o peatones, atropellos, choques con objetos fijos o caídas de vehículos. Estos incidentes pueden resultar en daños materiales, lesiones graves o incluso la pérdida de vidas para los involucrados.
 
@@ -30,9 +30,9 @@ Buenos Aires, la capital y ciudad más poblada de Argentina, cuenta con una supe
 
 Dada la alta incidencia de siniestros viales y su impacto en la seguridad pública, el estudio y la prevención de estos incidentes son de suma importancia para las autoridades locales.
 
-Desarrollo
+## Desarrollo
 
-Data:
+## Data:
 
 Para este proyecto se trabajó con la Bases de Víctimas Fatales en Siniestros Viales que se encuentra en formato de Excel y contiene dos pestañas de datos:
 
@@ -44,7 +44,7 @@ VICTIMAS: contiene una fila por cada víctima de los hechos y las variables edad
 
 -Proceso de EDA (Análisis Exploratorio de los datos) una vez que los datos están limpios, es momento de revisar las relaciones que existen entre las variables numéricas y categóricas de los datasets, encontrar si hay presencia de outliers o anomalías (que no tienen que ser errores necesariamente), y se verificó si hay algún patrón o conocimiento que sirva en un análisis posterior. EDA
 
-Análisis de los datos. 
+## Análisis de los datos. 
 
 Nos permitimos realizar un pequeño análisis exploratorio generalizado del DataFrame de la hoja "Hechos" con el fin de identificar las columnas con datos faltantes. Luego de ello, procederemos a obtener resultados en función de las diferentes variables, es decir, columnas, y los datos introducidos en cada una de ellas:
 
@@ -99,7 +99,7 @@ El conjunto de gráficos de barras que representan la cantidad de hechos registr
 
 Las barras muestran la variabilidad en la cantidad de hechos que se registran en diferentes meses del año para cada uno de los años representados.
 
-Conclusiones que podríamos sacar basadas en este tipo de gráficos:
+## Conclusiones que podríamos sacar basadas en este tipo de gráficos:
 
 Tendencias Estacionales: Podría haber tendencias estacionales si ciertos meses muestran consistentemente números más altos o más bajos de hechos. Por ejemplo, si las barras de diciembre son sistemáticamente altas en todos los años, esto podría sugerir un aumento de incidentes en ese mes.
 
@@ -113,7 +113,7 @@ Nos permitimos conocer a partir de una grafica  o histograma de barras, el mes c
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/1f228cc0-dcc6-4d31-b644-71547ecdc667)
 
-Conclusiones basadas en la descripción de la gráfica:
+## Conclusiones basadas en la descripción de la gráfica:
 
 Para cada año, hay una variación en el número de hechos por mes, con algunos meses teniendo más hechos que otros.
 El mes que se resalta en rojo indica el mes con la mayor cantidad de hechos registrados en ese año específico. Por ejemplo, si el mes de mayo está resaltado en rojo en el gráfico de 2017, significa que mayo de 2017 tuvo la mayor cantidad de hechos registrados en comparación con otros meses de ese año.
@@ -138,7 +138,7 @@ Nos permitimos conocer la cantidad de hachos por semana.
 
 El gráfico de barras representa la cantidad de hechos registrados por semana a lo largo de varios años, desde 2016 hasta 2021. Las barras de diferentes colores representan diferentes años, lo que permite una comparación entre la cantidad de hechos que ocurrieron en la misma semana en diferentes años.
 
-Interpretaciones de la gráfica:
+## Interpretaciones de la gráfica:
 
 Variabilidad Semanal: Existe una variabilidad en la cantidad de hechos registrados semana a semana. Esto es normal en datos de eventos que pueden ser influenciados por muchos factores externos.
 
@@ -148,7 +148,7 @@ Consistencia Temporal: Si bien hay variaciones, algunas semanas parecen tener co
 
 Ausencia de Tendencias Claras: No parece haber una tendencia clara ascendente o descendente en la cantidad de hechos a lo largo de los años, lo que indicaría que no hay un aumento o disminución general en los hechos registrados durante este período.
 
-Conclusiones basadas en la gráfica:
+## Conclusiones basadas en la gráfica:
 
 Planificación de Recursos: Las autoridades podrían utilizar esta información para planificar mejor la asignación de recursos. Por ejemplo, si ciertas semanas muestran consistentemente un número mayor de hechos, podrían prepararse reforzando el personal o los recursos durante esos períodos.
 
@@ -198,13 +198,13 @@ Pasamos ahora, a conocer el número de victimas por mes:
 
 La gráfica de barras que muestra la cantidad de víctimas por mes durante un período que abarca los años 2016 a 2021.
 
-Interpretación:
+## Interpretación:
 
 Eje Horizontal (Mes): Cada barra representa un mes del año, de enero a diciembre.
 Eje Vertical (Cantidad de Víctimas): La altura de cada barra indica el número total de víctimas que hubo en ese mes específico durante el período total de 2016 a 2021.
 Colores de las Barras: Aunque no se especifica en la descripción, si los colores de las barras representan diferentes años, entonces cada color dentro de la misma categoría de mes indicaría el total de víctimas para ese mes en diferentes años.
 
-Conclusiones:
+## Conclusiones:
 
 Variabilidad Mensual: Existe una variabilidad en la cantidad de víctimas de mes a mes. Algunos meses tienen más víctimas que otros.
 
@@ -213,7 +213,7 @@ Meses con Mayor Número de Víctimas: Los meses de enero, marzo y los últimos t
 Meses con Menor Número de Víctimas: Julio y septiembre muestran las cantidades más bajas de víctimas en el período dado.
 A partir de esta gráfica, se puede concluir que hay patrones estacionales en la cantidad de víctimas. Los meses de invierno y finales de año (en el hemisferio norte) tienden a tener más víctimas, lo que podría estar relacionado con condiciones climáticas adversas, un aumento en los viajes debido a las festividades o cambios en los patrones de comportamiento humano. Por otro lado, los meses de verano muestran números más bajos, lo que podría reflejar condiciones de viaje más seguras o menos tráfico de vehículos.
 
-Pasamos a conocer el  número de victimas por semana:
+## Pasamos a conocer el  número de victimas por semana:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/1fa1c265-9c7c-4c89-b03a-5b30b57d1f85)
 
@@ -223,13 +223,13 @@ El eje Horizontal (Semana): Representa las semanas del año, que generalmente es
 
 El eje Vertical (Cantidad de Víctimas): Representa el número de víctimas reportadas por semana. Los puntos individuales o las líneas verticales representan la cantidad de víctimas en una semana específica.
 
-Conclusiones basadas en la interpretación general del  gráfico de caja y bigotes:
+## Conclusiones basadas en la interpretación general del  gráfico de caja y bigotes:
 
 La línea que cruza la caja (mediana) muestra el valor central de los datos para esa semana en particular, lo cual es útil para entender la tendencia central sin ser influenciado por valores atípicos.
 La altura de la caja indica la variabilidad de los datos. Una caja más alta sugiere una mayor variabilidad en el número de víctimas por semana.
 Los valores atípicos pueden indicar semanas con números inusualmente altos o bajos de víctimas en comparación con el resto del año.
 
-Ahora, pasaremos a conocer el número de victimas por dia:
+## Ahora, pasaremos a conocer el número de victimas por dia:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/18fb4c1f-416e-464a-849e-b8696f7466a2)
 
@@ -266,7 +266,7 @@ De acuerdo con lo anterior,exploraremos acerca del lugar o lugares donde más ac
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/1a870a00-6f92-4b6d-b015-a1cfb2055ee1)
 
-Tenemos que: 
+## Tenemos que: 
 El lugar con más accidentes es: AV 27 de Febrero y AV Escalada con 4 accidentes.
 Lugar del hecho
 AV 27 DE Febrero y Av Escalada                               : 4.
@@ -299,7 +299,7 @@ La combinación más frecuente involucra a peatones y pasajeros, con la mayor ca
 La siguiente categoría más común es moto-auto, lo que sugiere una alta incidencia de accidentes entre motocicletas y automóviles (84 accidentes).
 Otras combinaciones frecuentes incluyen moto-cargas y peaton-auto, lo que podría indicar áreas de preocupación específicas en la seguridad vial relacionadas con motocicletas, peatones y vehículos de carga.
 
-Conclusiones:
+## Conclusiones:
 
 Seguridad de Peatones y Pasajeros: Los peatones y pasajeros parecen ser los más afectados en los accidentes, lo cual podría requerir medidas de seguridad adicionales en áreas de alto tráfico peatonal y en el transporte público o privado de pasajeros.
 
@@ -322,7 +322,7 @@ Peatones: Los peatones aparecen con 266 menciones, lo que implica que también s
 Autos: Con 92 menciones, los autos son el tercer tipo de vehículo más común en la lista, lo que indica su participación en los accidentes pero en menor medida comparado con motos y peatones.
 Bicicletas y otros: Las bicicletas tienen 29 menciones, seguidas por categorías con menos incidencia como "sin dato", "cargas", "pasajeros", "móvil", "objeto fijo" y "peaton_moto".
 
-Conclusiones:
+## Conclusiones:
 
 Seguridad de Motociclistas y Peatones: Las autoridades podrían necesitar enfocarse en mejorar la seguridad vial para motociclistas y peatones, ya que representan los mayores grupos de riesgo según los datos.
 
@@ -340,14 +340,14 @@ Ahora pasamos a explorar la frecuencia con la que se ven implicados los diferent
 
 La interpretacion y conclusion de la grafica anterior son las siguientes :
 
-Interpretación:
+## Interpretación:
 
 El rol de "conductor" es el más frecuentemente implicado en accidentes de tránsito, con la mayor cantidad de accidentes (330).
 El rol de "peatón" también es significativamente implicado en accidentes, con 267 incidentes.
 "Pasajero_acompañante" y "ciclista" se muestran como otros roles involucrados en accidentes, con 80 y 29 accidentes respectivamente.
 La categoría "sin dato" indica un número de registros (11) donde el rol no fue especificado o no se disponía de información.
 
-Conclusiones:
+## Conclusiones:
 
 Atención a Conductores: Dado que los conductores están implicados en la mayoría de los accidentes, las campañas de seguridad vial deben centrarse en la educación y el entrenamiento de los conductores, así como en la implementación de leyes de tránsito más estrictas y su cumplimiento.
 
@@ -364,7 +364,7 @@ Pasamos a explorar el genero que con mayor frecuencia se ve implicado en acciden
 
 Frente a la anterior grafica tenemos tambien: 
 
-Interpretación:
+## Interpretación:
 
 La categoría "masculino" tiene significativamente más accidentes reportados con un total de 545.
 La categoría "femenino" tiene un total de 166 accidentes.
@@ -384,7 +384,7 @@ Pasamos a explorar el rango de edades que en mayoritariamente se ven implicadas 
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/assets/120407303/f967a3ef-4843-4d5e-839b-9ac97773ffc8)
 
-la grafica nos muestra:
+## la grafica nos muestra:
 
 Rango_Edad
 0-18:      76.
@@ -423,7 +423,7 @@ Finalmente, pasamos a explorar el rol que más se percibe inicialmente acusado e
 
  De acuerdo con la grafica de barras tenemos que su interpretacion y conclusiones son las siguientes:  
 
- Interpretación:
+## Interpretación:
 
 El rol de "auto" es el más frecuentemente acusado en accidentes de tránsito, con 210 incidentes.
 Los "pasajeros" y los vehículos de "cargas" también tienen un alto número de acusaciones, con 178 y 150 incidentes respectivamente.
@@ -431,7 +431,7 @@ Se observa una cantidad menor de acusaciones para roles como "moto" y "objeto fi
 Hay casos donde no se ha proporcionado dato sobre el rol acusado ("sin dato") o donde se han implicado múltiples roles ("múltiple").
 Roles como "bicicleta", "otro", y "tren" tienen la menor frecuencia de acusaciones.
 
-Conclusiones:
+## Conclusiones:
 
 Responsabilidad del Conductor de Automóvil: Dado que los conductores de automóviles representan la mayoría de las acusaciones, es crucial enfocar las medidas de seguridad y educación vial en este grupo para reducir su involucramiento en accidentes.
 
