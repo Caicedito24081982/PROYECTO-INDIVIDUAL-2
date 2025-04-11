@@ -34,7 +34,7 @@ Dada la alta incidencia de siniestros viales y su impacto en la seguridad públi
 
 ## Data:
 
-## Para este proyecto se trabajó con la bases de datos de Víctimas Fatales en Siniestros Viales, que se encuentra en formato  Excel y contiene dos pestañas de datos:
+## Para este proyecto se trabajó con la base de datos de Víctimas Fatales en Siniestros Viales, que se encuentra en formato  Excel y contiene dos pestañas de datos:
 
 HECHOS: que contiene una fila de hecho con id único y las variables temporales, espaciales y participantes asociadas al mismo.
 
