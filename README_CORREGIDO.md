@@ -3,7 +3,11 @@
 ## **Una Propuesta de Valor para Secretarías de Movilidad Globales**
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/gifs/road_accidents_animated.gif" alt="Análisis y Predicción de Accidentes Viales" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/portada_animada.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/portada_thumbnail.jpg" alt="Portada Animada (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el video animado</em>
+  </a>
 </p>
 
 ---
@@ -33,8 +37,10 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Insights Clave**
 
 <p align="center">
-  <a href="https://raw.githack.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/main/presentacion_ejecutiva/galeria_interactiva.html" target="_blank">
-    <img src="presentacion_ejecutiva/images/gifs/insights_dashboard_animated.gif" alt="Dashboard de Insights" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/insights_dashboard_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/insights_thumbnail.jpg" alt="Dashboard de Insights (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el dashboard animado</em>
   </a>
 </p>
 
@@ -47,8 +53,10 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Patrones Temporales y Espaciales**
 
 <p align="center">
-  <a href="https://raw.githack.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/main/presentacion_ejecutiva/galeria_interactiva.html" target="_blank">
-    <img src="presentacion_ejecutiva/images/gifs/patrones_heatmap_animated.gif" alt="Patrones Espaciotemporales" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/patrones_heatmap_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/patrones_thumbnail.jpg" alt="Patrones Espaciotemporales (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el mapa de patrones animado</em>
   </a>
 </p>
 
@@ -65,8 +73,10 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Modelo Predictivo**
 
 <p align="center">
-  <a href="https://raw.githack.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/main/presentacion_ejecutiva/galeria_interactiva.html" target="_blank">
-    <img src="presentacion_ejecutiva/images/gifs/prediccion_model_animated.gif" alt="Modelo Predictivo" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/prediccion_model_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/prediccion_thumbnail.jpg" alt="Modelo Predictivo (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el modelo predictivo animado</em>
   </a>
 </p>
 
@@ -85,8 +95,10 @@ Características principales:
 ## **KPIs de Impacto**
 
 <p align="center">
-  <a href="https://raw.githack.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/main/presentacion_ejecutiva/galeria_interactiva.html" target="_blank">
-    <img src="presentacion_ejecutiva/images/gifs/kpis_dashboard_animated.gif" alt="KPIs de Impacto" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/kpis_dashboard_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/kpis_thumbnail.jpg" alt="KPIs de Impacto (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver los KPIs animados</em>
   </a>
 </p>
 
@@ -95,18 +107,48 @@ Características principales:
 - **Ahorro Económico**: $24.5M USD en 5 años
 - **Optimización de Tiempos de Respuesta**: Mejora del 25% (promedio de 25 minutos)
 
-## **Galería Interactiva y Presentación Ejecutiva**
+## **Propuesta de Valor**
 
-Para una experiencia más inmersiva y detallada, hemos preparado una **galería interactiva** que le permitirá explorar todas las visualizaciones del proyecto, tanto las del análisis exploratorio como las animaciones de la presentación ejecutiva. 
+Ofrecemos un framework integral adaptable a cualquier ciudad del mundo:
+
+1. **Diagnóstico Completo**: Evaluación exhaustiva de la situación actual
+2. **Modelos Predictivos Personalizados**: Algoritmos adaptados al contexto local
+3. **Dashboard Ejecutivo en Tiempo Real**: Monitoreo continuo de KPIs críticos
+4. **Benchmarking Internacional**: Comparativa con ciudades similares
+
+## **Plan de Implementación**
+
+1. **Integración de Datos**: Conexión con fuentes existentes y establecimiento de pipelines
+2. **Desarrollo de Modelos**: Adaptación de algoritmos al contexto local
+3. **Implementación de Dashboard**: Desarrollo de interfaces intuitivas
+4. **Monitoreo y Optimización**: Evaluación continua y refinamiento
+
+Tiempo estimado: 3-6 meses según complejidad y disponibilidad de datos
+
+## **Visualizaciones Originales del Análisis**
+
+Este proyecto se basa en un análisis riguroso de datos reales. A continuación, algunas de las visualizaciones originales generadas durante el análisis exploratorio:
 
 <p align="center">
-  <a href="https://raw.githack.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/main/presentacion_ejecutiva/galeria_interactiva.html" target="_blank">
-    <img src="presentacion_ejecutiva/images/thumbnails/portada_thumbnail.jpg" alt="Galería Interactiva" width="600">
-    <br>
-    <strong><br>👆 Click en la imagen para acceder a la Galería Interactiva Completa 👆</strong>
-  </a>
+  <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_001.png" alt="Distribución temporal" width="400">
+  <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_003.png" alt="Distribución por comuna" width="400">
 </p>
 
+<p align="center">
+  <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_008.png" alt="Mapa de calor" width="800">
+</p>
+
+Para ver todas las visualizaciones originales y su relación con los videos animados, consulte [esta página](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/visualizaciones_combinadas.html).
+
+## **Presentación Ejecutiva**
+
+<p align="center">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/portada_colorida.png?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/portada_colorida.png" alt="Presentación Ejecutiva" width="400">
+    <br>
+    <strong>Ver Presentación Completa</strong>
+  </a>
+</p>
 
 ## **¿Por Qué Elegirnos?**
 
