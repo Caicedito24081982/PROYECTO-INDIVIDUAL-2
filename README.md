@@ -3,7 +3,11 @@
 ## **Una Propuesta de Valor para Secretarías de Movilidad Globales**
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/portada_animada.mp4" alt="Portada Animada" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/portada_animada.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/portada_thumbnail.jpg" alt="Portada Animada (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el video animado</em>
+  </a>
 </p>
 
 ---
@@ -33,7 +37,11 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Insights Clave**
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/insights_dashboard_animated.mp4" alt="Dashboard de Insights" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/insights_dashboard_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/insights_thumbnail.jpg" alt="Dashboard de Insights (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el dashboard animado</em>
+  </a>
 </p>
 
 - **Tendencia Temporal**: Reducción del 42% en siniestros fatales entre 2018 y 2021
@@ -45,7 +53,11 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Patrones Temporales y Espaciales**
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/patrones_heatmap_animated.mp4" alt="Patrones Espaciotemporales" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/patrones_heatmap_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/patrones_thumbnail.jpg" alt="Patrones Espaciotemporales (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el mapa de patrones animado</em>
+  </a>
 </p>
 
 ### **Patrones Temporales**
@@ -61,7 +73,11 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Modelo Predictivo**
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/prediccion_model_animated.mp4" alt="Modelo Predictivo" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/prediccion_model_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/prediccion_thumbnail.jpg" alt="Modelo Predictivo (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver el modelo predictivo animado</em>
+  </a>
 </p>
 
 Nuestro modelo predictivo identifica zonas y momentos de alto riesgo con:
@@ -79,7 +95,11 @@ Características principales:
 ## **KPIs de Impacto**
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/kpis_dashboard_animated.mp4" alt="KPIs de Impacto" width="800">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/kpis_dashboard_animated.mp4?raw=true" target="_blank">
+    <img src="presentacion_ejecutiva/images/thumbnails/kpis_thumbnail.jpg" alt="KPIs de Impacto (Click para ver video)" width="800">
+    <br>
+    <em>👆 Click en la imagen para ver los KPIs animados</em>
+  </a>
 </p>
 
 - **Reducción de la Tasa de Mortalidad**: 15.8% en el primer año
@@ -118,12 +138,12 @@ Este proyecto se basa en un análisis riguroso de datos reales. A continuación,
   <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_008.png" alt="Mapa de calor" width="800">
 </p>
 
-Para ver todas las visualizaciones originales y su relación con los videos animados, consulte [esta página](presentacion_ejecutiva/visualizaciones_combinadas.html).
+Para ver todas las visualizaciones originales y su relación con los videos animados, consulte [esta página](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/visualizaciones_combinadas.html).
 
 ## **Presentación Ejecutiva**
 
 <p align="center">
-  <a href="manus-slides://1K5du45SJujWozyM7rVvZH">
+  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/portada_colorida.png?raw=true" target="_blank">
     <img src="presentacion_ejecutiva/images/portada_colorida.png" alt="Presentación Ejecutiva" width="400">
     <br>
     <strong>Ver Presentación Completa</strong>
