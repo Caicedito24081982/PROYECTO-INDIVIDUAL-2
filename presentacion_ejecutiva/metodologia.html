@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        background: #0a192f;
+        color: white;
+        padding: 40px;
+        font-family: 'Arial', sans-serif;
+      }
+      .title {
+        font-size: 36px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .content-container {
+        display: flex;
+        height: 580px;
+      }
+      .text-column {
+        flex: 1;
+        padding: 20px 40px 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .image-column {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .methodology-image {
+        max-width: 90%;
+        height: auto;
+      }
+      .methodology-step {
+        margin-bottom: 20px;
+        padding-left: 15px;
+        border-left: 3px solid #4dabf7;
+      }
+      .step-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #4dabf7;
+        margin-bottom: 5px;
+      }
+      .step-description {
+        font-size: 16px;
+        color: #ccc;
+      }
+      .highlight {
+        color: #4dabf7;
+        font-weight: bold;
+      }
+      .tech-tag {
+        display: inline-block;
+        background: rgba(77, 171, 247, 0.2);
+        color: #8ecdf7;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-right: 5px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="title">Metodología y Enfoque Científico</div>
+      
+      <div class="content-container">
+        <div class="text-column">
+          <div class="methodology-step">
+            <div class="step-title">1. Recolección de Datos</div>
+            <div class="step-description">Integración de datos oficiales de siniestros viales de CABA (2016-2021) con información geoespacial y demográfica.</div>
+            <div class="mt-2">
+              <span class="tech-tag">Excel</span>
+              <span class="tech-tag">APIs</span>
+              <span class="tech-tag">Web Scraping</span>
+            </div>
+          </div>
+          
+          <div class="methodology-step">
+            <div class="step-title">2. Proceso ETL</div>
+            <div class="step-description">Limpieza, transformación y normalización de datos para análisis. Creación de variables derivadas para enriquecer el modelo.</div>
+            <div class="mt-2">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">NumPy</span>
+            </div>
+          </div>
+          
+          <div class="methodology-step">
+            <div class="step-title">3. Análisis Exploratorio</div>
+            <div class="step-description">Identificación de patrones temporales y espaciales. Análisis de correlaciones entre variables y detección de factores de riesgo.</div>
+            <div class="mt-2">
+              <span class="tech-tag">Matplotlib</span>
+              <span class="tech-tag">Seaborn</span>
+              <span class="tech-tag">GeoPandas</span>
+            </div>
+          </div>
+          
+          <div class="methodology-step">
+            <div class="step-title">4. Modelado Predictivo</div>
+            <div class="step-description">Desarrollo de modelos de machine learning para predecir zonas y momentos de alto riesgo de siniestros.</div>
+            <div class="mt-2">
+              <span class="tech-tag">Scikit-learn</span>
+              <span class="tech-tag">XGBoost</span>
+              <span class="tech-tag">TensorFlow</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="image-column">
+          <img src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/metodologia_diagram.png" alt="Diagrama de metodología" class="methodology-image">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

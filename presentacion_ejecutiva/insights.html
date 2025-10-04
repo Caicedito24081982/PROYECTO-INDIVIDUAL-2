@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        background: #0a192f;
+        color: white;
+        padding: 40px;
+        font-family: 'Arial', sans-serif;
+      }
+      .title {
+        font-size: 36px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .content-container {
+        display: flex;
+        height: 580px;
+      }
+      .text-column {
+        flex: 1;
+        padding: 20px 40px 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .image-column {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .insight-image {
+        max-width: 90%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      }
+      .insight-item {
+        margin-bottom: 25px;
+        position: relative;
+        padding-left: 30px;
+      }
+      .insight-item:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 8px;
+        width: 12px;
+        height: 12px;
+        background-color: #4dabf7;
+        border-radius: 50%;
+      }
+      .insight-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #4dabf7;
+        margin-bottom: 5px;
+      }
+      .insight-description {
+        font-size: 16px;
+        color: #ccc;
+        line-height: 1.5;
+      }
+      .highlight {
+        color: #4dabf7;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="title">Insights Clave: CABA 2016-2021</div>
+      
+      <div class="content-container">
+        <div class="text-column">
+          <div class="insight-item">
+            <div class="insight-title">Tendencia Temporal</div>
+            <div class="insight-description">
+              Reducción del <span class="highlight">42%</span> en siniestros fatales entre 2018 (149 casos) y 2021 (97 casos), con una caída significativa en 2020 (81 casos) durante la pandemia.
+            </div>
+          </div>
+          
+          <div class="insight-item">
+            <div class="insight-title">Perfil de Víctimas</div>
+            <div class="insight-description">
+              Los <span class="highlight">motociclistas</span> representan el grupo más vulnerable, seguidos por <span class="highlight">peatones</span>. El <span class="highlight">75%</span> de las víctimas son hombres, principalmente entre 25-45 años.
+            </div>
+          </div>
+          
+          <div class="insight-item">
+            <div class="insight-title">Patrones Horarios</div>
+            <div class="insight-description">
+              Mayor concentración de siniestros en <span class="highlight">horas pico</span> (7-9h y 17-19h) y durante la <span class="highlight">madrugada de fin de semana</span> (1-5h), sugiriendo factores de fatiga y alcohol.
+            </div>
+          </div>
+          
+          <div class="insight-item">
+            <div class="insight-title">Distribución Geográfica</div>
+            <div class="insight-description">
+              Las <span class="highlight">comunas 1, 4 y 9</span> concentran el mayor número de siniestros fatales, con puntos críticos en avenidas principales y cruces de alta circulación.
+            </div>
+          </div>
+          
+          <div class="insight-item">
+            <div class="insight-title">Factores de Riesgo</div>
+            <div class="insight-description">
+              El <span class="highlight">exceso de velocidad</span> y las <span class="highlight">infracciones en cruces</span> son los principales factores contribuyentes identificados en los siniestros fatales.
+            </div>
+          </div>
+        </div>
+        
+        <div class="image-column">
+          <img src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/insights_dashboard.png" alt="Dashboard de insights de siniestros viales" class="insight-image">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
