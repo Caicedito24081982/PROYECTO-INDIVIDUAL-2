@@ -3,7 +3,7 @@
 ## **Una Propuesta de Valor para Secretarías de Movilidad Globales**
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/gifs/portada_animada.gif" alt="Portada Animada" width="800">
+  <img src="presentacion_ejecutiva/images/gifs/road_accidents_animated.gif" alt="Análisis y Predicción de Accidentes Viales" width="800">
 </p>
 
 ---
