@@ -140,9 +140,10 @@ Para más información sobre esta propuesta y cómo implementarla en su ciudad:
 
 **Jorge Enrique Caicedo Riascos**  
 Científico de Datos | Experto en Movilidad Urbana  
-jorge.caicedo@ejemplo.com  
-+57 300 123 4567  
-Bogotá, Colombia
+jorge.caicedo.riascos@gmail.com  
++57 3128300577 | +57 3107623018  
+Cali, Colombia  
+Dirección Oficina: Cra 4 No 10-44 Oficina 1012, Edificio Plaza de Cayzedo
 
 ---
 
