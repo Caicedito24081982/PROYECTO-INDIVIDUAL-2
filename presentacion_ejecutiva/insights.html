@@ -22,6 +22,7 @@
         color: white;
         margin-bottom: 30px;
         text-align: center;
+        text-shadow: 0 0 10px rgba(77, 171, 247, 0.5);
       }
       .content-container {
         display: flex;
@@ -34,14 +35,15 @@
         flex-direction: column;
         justify-content: center;
       }
-      .image-column {
+      .video-column {
         flex: 1;
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
       }
-      .insight-image {
-        max-width: 90%;
+      .insight-video {
+        width: 100%;
         height: auto;
         border-radius: 8px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -60,12 +62,14 @@
         height: 12px;
         background-color: #4dabf7;
         border-radius: 50%;
+        box-shadow: 0 0 10px rgba(77, 171, 247, 0.7);
       }
       .insight-title {
         font-size: 20px;
         font-weight: bold;
         color: #4dabf7;
         margin-bottom: 5px;
+        text-shadow: 0 0 8px rgba(77, 171, 247, 0.5);
       }
       .insight-description {
         font-size: 16px;
@@ -75,6 +79,7 @@
       .highlight {
         color: #4dabf7;
         font-weight: bold;
+        text-shadow: 0 0 5px rgba(77, 171, 247, 0.5);
       }
     </style>
   </head>
@@ -120,8 +125,10 @@
           </div>
         </div>
         
-        <div class="image-column">
-          <img src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/insights_dashboard.png" alt="Dashboard de insights de siniestros viales" class="insight-image">
+        <div class="video-column">
+          <video class="insight-video" autoplay loop muted playsinline>
+            <source src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/insights_dashboard_animated.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>

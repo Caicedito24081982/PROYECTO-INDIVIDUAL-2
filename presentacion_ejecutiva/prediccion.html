@@ -22,6 +22,7 @@
         color: white;
         margin-bottom: 30px;
         text-align: center;
+        text-shadow: 0 0 10px rgba(77, 171, 247, 0.5);
       }
       .content-container {
         display: flex;
@@ -34,20 +35,22 @@
         flex-direction: column;
         justify-content: center;
       }
-      .image-column {
+      .video-column {
         flex: 1;
         display: flex;
         align-items: center;
         justify-content: center;
       }
-      .model-image {
-        max-width: 90%;
+      .model-video {
+        width: 100%;
         height: auto;
         border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
       }
       .highlight {
         color: #4dabf7;
         font-weight: bold;
+        text-shadow: 0 0 5px rgba(77, 171, 247, 0.5);
       }
       .metric-container {
         display: flex;
@@ -61,6 +64,8 @@
         margin-right: 15px;
         margin-bottom: 15px;
         width: calc(50% - 15px);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(77, 171, 247, 0.2);
       }
       .metric-title {
         font-size: 16px;
@@ -71,6 +76,7 @@
         font-size: 24px;
         font-weight: bold;
         color: white;
+        text-shadow: 0 0 8px rgba(77, 171, 247, 0.5);
       }
       .feature-list {
         margin-top: 20px;
@@ -84,6 +90,7 @@
         color: #4dabf7;
         margin-right: 10px;
         font-size: 18px;
+        text-shadow: 0 0 8px rgba(77, 171, 247, 0.7);
       }
       .feature-text {
         font-size: 16px;
@@ -146,8 +153,10 @@
           </div>
         </div>
         
-        <div class="image-column">
-          <img src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/prediccion_model.png" alt="Modelo predictivo de riesgo" class="model-image">
+        <div class="video-column">
+          <video class="model-video" autoplay loop muted playsinline>
+            <source src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/prediccion_model_animated.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>

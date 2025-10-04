@@ -2,7 +2,7 @@
 
 ## **Una Propuesta de Valor para Secretarías de Movilidad Globales**
 
-![Portada](presentacion_ejecutiva/images/portada_background.png)
+![Portada](presentacion_ejecutiva/images/portada_animada.mp4)
 
 ---
 
@@ -11,8 +11,6 @@
 Este proyecto presenta una **solución integral de análisis y predicción de siniestros viales** diseñada específicamente para Secretarías de Movilidad a nivel global. Utilizando técnicas avanzadas de ciencia de datos y machine learning, transformamos datos históricos de accidentes de tránsito en herramientas predictivas que permiten anticipar y prevenir siniestros viales, optimizando la asignación de recursos y salvando vidas.
 
 ## **El Problema: Un Desafío Global**
-
-![Problema](presentacion_ejecutiva/images/problema_background.png)
 
 Los siniestros viales representan una crisis de salud pública global con enormes costos sociales y económicos:
 
@@ -24,8 +22,6 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 
 ## **Nuestra Metodología**
 
-![Metodología](presentacion_ejecutiva/images/metodologia_diagram.png)
-
 1. **Recolección de Datos**: Integración de datos oficiales de siniestros viales con información geoespacial y demográfica.
 2. **Proceso ETL**: Limpieza, transformación y normalización de datos para análisis.
 3. **Análisis Exploratorio**: Identificación de patrones temporales y espaciales.
@@ -34,7 +30,7 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 
 ## **Insights Clave**
 
-![Dashboard](presentacion_ejecutiva/images/insights_dashboard.png)
+![Dashboard](presentacion_ejecutiva/images/insights_dashboard_animated.mp4)
 
 - **Tendencia Temporal**: Reducción del 42% en siniestros fatales entre 2018 y 2021
 - **Perfil de Víctimas**: Motociclistas como grupo más vulnerable (75% hombres, 25-45 años)
@@ -44,7 +40,7 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 
 ## **Patrones Temporales y Espaciales**
 
-![Patrones](presentacion_ejecutiva/images/patrones_heatmap.png)
+![Patrones](presentacion_ejecutiva/images/patrones_heatmap_animated.mp4)
 
 ### **Patrones Temporales**
 - **Días críticos:** Mayor incidencia en días laborables (lunes a viernes)
@@ -58,7 +54,7 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 
 ## **Modelo Predictivo**
 
-![Modelo](presentacion_ejecutiva/images/prediccion_model.png)
+![Modelo](presentacion_ejecutiva/images/prediccion_model_animated.mp4)
 
 Nuestro modelo predictivo identifica zonas y momentos de alto riesgo con:
 - **83.7%** de precisión
@@ -74,7 +70,7 @@ Características principales:
 
 ## **KPIs de Impacto**
 
-![KPIs](presentacion_ejecutiva/images/kpis_dashboard.png)
+![KPIs](presentacion_ejecutiva/images/kpis_dashboard_animated.mp4)
 
 - **Reducción de la Tasa de Mortalidad**: 15.8% en el primer año
 - **Vidas Salvadas**: 570 en un período de 5 años
@@ -82,8 +78,6 @@ Características principales:
 - **Optimización de Tiempos de Respuesta**: Mejora del 25% (promedio de 25 minutos)
 
 ## **Propuesta de Valor**
-
-![Propuesta](presentacion_ejecutiva/images/propuesta_valor.png)
 
 Ofrecemos un framework integral adaptable a cualquier ciudad del mundo:
 
@@ -93,8 +87,6 @@ Ofrecemos un framework integral adaptable a cualquier ciudad del mundo:
 4. **Benchmarking Internacional**: Comparativa con ciudades similares
 
 ## **Plan de Implementación**
-
-![Implementación](presentacion_ejecutiva/images/implementacion_roadmap.png)
 
 1. **Integración de Datos**: Conexión con fuentes existentes y establecimiento de pipelines
 2. **Desarrollo de Modelos**: Adaptación de algoritmos al contexto local
@@ -108,8 +100,6 @@ Tiempo estimado: 3-6 meses según complejidad y disponibilidad de datos
 Somos un equipo de científicos de datos con experiencia en la aplicación de tecnologías de vanguardia para resolver problemas complejos del mundo real. Nuestra pasión es transformar datos en impacto social positivo. Estamos comprometidos con la excelencia, la innovación y la colaboración para crear ciudades más seguras e inteligentes.
 
 ## **Contacto**
-
-![Contacto](presentacion_ejecutiva/images/contacto_background.png)
 
 Para más información sobre esta propuesta y cómo implementarla en su ciudad:
 

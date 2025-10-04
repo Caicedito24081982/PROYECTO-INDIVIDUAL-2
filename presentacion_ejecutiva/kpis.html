@@ -22,6 +22,7 @@
         color: white;
         margin-bottom: 30px;
         text-align: center;
+        text-shadow: 0 0 10px rgba(77, 171, 247, 0.5);
       }
       .content-container {
         display: flex;
@@ -34,16 +35,17 @@
         flex-direction: column;
         justify-content: center;
       }
-      .image-column {
+      .video-column {
         flex: 1;
         display: flex;
         align-items: center;
         justify-content: center;
       }
-      .kpi-image {
-        max-width: 90%;
+      .kpi-video {
+        width: 100%;
         height: auto;
         border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
       }
       .kpi-description {
         margin-bottom: 25px;
@@ -55,6 +57,7 @@
         margin-bottom: 8px;
         display: flex;
         align-items: center;
+        text-shadow: 0 0 8px rgba(77, 171, 247, 0.5);
       }
       .kpi-icon {
         margin-right: 10px;
@@ -66,6 +69,7 @@
         background: rgba(77, 171, 247, 0.2);
         border-radius: 50%;
         color: #4dabf7;
+        box-shadow: 0 0 10px rgba(77, 171, 247, 0.5);
       }
       .kpi-text {
         font-size: 16px;
@@ -75,6 +79,7 @@
       .highlight {
         color: #4dabf7;
         font-weight: bold;
+        text-shadow: 0 0 5px rgba(77, 171, 247, 0.5);
       }
       .intro-text {
         font-size: 18px;
@@ -135,8 +140,10 @@
           </div>
         </div>
         
-        <div class="image-column">
-          <img src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/kpis_dashboard.png" alt="Dashboard de KPIs" class="kpi-image">
+        <div class="video-column">
+          <video class="kpi-video" autoplay loop muted playsinline>
+            <source src="/home/ubuntu/PROYECTO-INDIVIDUAL-2/presentacion_ejecutiva/images/kpis_dashboard_animated.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
