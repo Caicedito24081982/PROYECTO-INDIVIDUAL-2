@@ -3,11 +3,7 @@
 ## **Una Propuesta de Valor para Secretarías de Movilidad Globales**
 
 <p align="center">
-  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/portada_animada.mp4?raw=true" target="_blank">
-    <img src="presentacion_ejecutiva/images/thumbnails/portada_thumbnail.jpg" alt="Portada Animada (Click para ver video)" width="800">
-    <br>
-    <em>👆 Click en la imagen para ver el video animado</em>
-  </a>
+  <img src="presentacion_ejecutiva/images/gifs/portada_animada.gif" alt="Portada Animada" width="800">
 </p>
 
 ---
@@ -37,11 +33,7 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Insights Clave**
 
 <p align="center">
-  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/insights_dashboard_animated.mp4?raw=true" target="_blank">
-    <img src="presentacion_ejecutiva/images/thumbnails/insights_thumbnail.jpg" alt="Dashboard de Insights (Click para ver video)" width="800">
-    <br>
-    <em>👆 Click en la imagen para ver el dashboard animado</em>
-  </a>
+  <img src="presentacion_ejecutiva/images/gifs/insights_dashboard_animated.gif" alt="Dashboard de Insights" width="800">
 </p>
 
 - **Tendencia Temporal**: Reducción del 42% en siniestros fatales entre 2018 y 2021
@@ -53,11 +45,7 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Patrones Temporales y Espaciales**
 
 <p align="center">
-  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/patrones_heatmap_animated.mp4?raw=true" target="_blank">
-    <img src="presentacion_ejecutiva/images/thumbnails/patrones_thumbnail.jpg" alt="Patrones Espaciotemporales (Click para ver video)" width="800">
-    <br>
-    <em>👆 Click en la imagen para ver el mapa de patrones animado</em>
-  </a>
+  <img src="presentacion_ejecutiva/images/gifs/patrones_heatmap_animated.gif" alt="Patrones Espaciotemporales" width="800">
 </p>
 
 ### **Patrones Temporales**
@@ -73,11 +61,7 @@ La gestión tradicional reactiva es insuficiente; necesitamos un **enfoque proac
 ## **Modelo Predictivo**
 
 <p align="center">
-  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/prediccion_model_animated.mp4?raw=true" target="_blank">
-    <img src="presentacion_ejecutiva/images/thumbnails/prediccion_thumbnail.jpg" alt="Modelo Predictivo (Click para ver video)" width="800">
-    <br>
-    <em>👆 Click en la imagen para ver el modelo predictivo animado</em>
-  </a>
+  <img src="presentacion_ejecutiva/images/gifs/prediccion_model_animated.gif" alt="Modelo Predictivo" width="800">
 </p>
 
 Nuestro modelo predictivo identifica zonas y momentos de alto riesgo con:
@@ -95,11 +79,7 @@ Características principales:
 ## **KPIs de Impacto**
 
 <p align="center">
-  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/kpis_dashboard_animated.mp4?raw=true" target="_blank">
-    <img src="presentacion_ejecutiva/images/thumbnails/kpis_thumbnail.jpg" alt="KPIs de Impacto (Click para ver video)" width="800">
-    <br>
-    <em>👆 Click en la imagen para ver los KPIs animados</em>
-  </a>
+  <img src="presentacion_ejecutiva/images/gifs/kpis_dashboard_animated.gif" alt="KPIs de Impacto" width="800">
 </p>
 
 - **Reducción de la Tasa de Mortalidad**: 15.8% en el primer año
@@ -130,20 +110,20 @@ Tiempo estimado: 3-6 meses según complejidad y disponibilidad de datos
 Este proyecto se basa en un análisis riguroso de datos reales. A continuación, algunas de las visualizaciones originales generadas durante el análisis exploratorio:
 
 <p align="center">
-  <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_001.png" alt="Distribución temporal" width="400">
-  <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_003.png" alt="Distribución por comuna" width="400">
+  <a href="presentacion_ejecutiva/galeria_visualizaciones.html">
+    <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_001.png" alt="Distribución temporal" width="300">
+    <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_003.png" alt="Distribución por comuna" width="300">
+    <br>
+    <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_008.png" alt="Mapa de calor" width="600">
+    <br>
+    <strong>👆 Click aquí para ver todas las visualizaciones en tamaño completo</strong>
+  </a>
 </p>
-
-<p align="center">
-  <img src="presentacion_ejecutiva/images/original_visualizations/original_viz_008.png" alt="Mapa de calor" width="800">
-</p>
-
-Para ver todas las visualizaciones originales y su relación con los videos animados, consulte [esta página](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/visualizaciones_combinadas.html).
 
 ## **Presentación Ejecutiva**
 
 <p align="center">
-  <a href="https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-2/blob/main/presentacion_ejecutiva/images/portada_colorida.png?raw=true" target="_blank">
+  <a href="presentacion_ejecutiva/galeria_visualizaciones.html">
     <img src="presentacion_ejecutiva/images/portada_colorida.png" alt="Presentación Ejecutiva" width="400">
     <br>
     <strong>Ver Presentación Completa</strong>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Visualizaciones - Análisis de Siniestros Viales</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .gallery-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            cursor: pointer;
+        }
+        .gallery-item .caption {
+            padding: 15px;
+            text-align: center;
+            font-weight: 500;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            overflow: auto;
+        }
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+        }
+        .modal-caption {
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 80%;
+            margin: 20px auto;
+        }
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Galería de Visualizaciones - Análisis de Siniestros Viales</h1>
+        
+        <div class="section">
+            <h2>Visualizaciones Originales del Análisis</h2>
+            <p>Estas visualizaciones fueron generadas durante el análisis exploratorio de datos (EDA) y muestran los hallazgos clave sobre los siniestros viales en CABA.</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_001.png" alt="Distribución temporal" onclick="openModal(this.src, 'Distribución temporal de siniestros viales')">
+                    <div class="caption">Distribución temporal de siniestros viales</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_002.png" alt="Análisis por tipo de víctima" onclick="openModal(this.src, 'Análisis por tipo de víctima')">
+                    <div class="caption">Análisis por tipo de víctima</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_003.png" alt="Distribución por comuna" onclick="openModal(this.src, 'Distribución por comuna')">
+                    <div class="caption">Distribución por comuna</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_004.png" alt="Patrones horarios" onclick="openModal(this.src, 'Patrones horarios de siniestros')">
+                    <div class="caption">Patrones horarios de siniestros</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_005.png" alt="Distribución por día de semana" onclick="openModal(this.src, 'Distribución por día de semana')">
+                    <div class="caption">Distribución por día de semana</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_006.png" alt="Análisis de género y edad" onclick="openModal(this.src, 'Análisis de género y edad de víctimas')">
+                    <div class="caption">Análisis de género y edad de víctimas</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_007.png" alt="Tendencia anual" onclick="openModal(this.src, 'Tendencia anual de siniestros')">
+                    <div class="caption">Tendencia anual de siniestros</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/original_visualizations/original_viz_008.png" alt="Mapa de calor de accidentes" onclick="openModal(this.src, 'Mapa de calor de accidentes')">
+                    <div class="caption">Mapa de calor de accidentes</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Videos Animados</h2>
+            <p>Estos videos animados ilustran los conceptos clave del análisis y las propuestas de valor para las Secretarías de Movilidad.</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/thumbnails/portada_thumbnail.jpg" alt="Portada Animada" onclick="openModal('images/gifs/portada_animada.gif', 'Portada Animada')">
+                    <div class="caption">Portada Animada</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/thumbnails/insights_thumbnail.jpg" alt="Dashboard de Insights" onclick="openModal('images/gifs/insights_dashboard_animated.gif', 'Dashboard de Insights')">
+                    <div class="caption">Dashboard de Insights</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/thumbnails/patrones_thumbnail.jpg" alt="Patrones Espaciotemporales" onclick="openModal('images/gifs/patrones_heatmap_animated.gif', 'Patrones Espaciotemporales')">
+                    <div class="caption">Patrones Espaciotemporales</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/thumbnails/prediccion_thumbnail.jpg" alt="Modelo Predictivo" onclick="openModal('images/gifs/prediccion_model_animated.gif', 'Modelo Predictivo')">
+                    <div class="caption">Modelo Predictivo</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/thumbnails/kpis_thumbnail.jpg" alt="KPIs de Impacto" onclick="openModal('images/gifs/kpis_dashboard_animated.gif', 'KPIs de Impacto')">
+                    <div class="caption">KPIs de Impacto</div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="../README.md" class="back-link">Volver al README principal</a>
+    </div>
+    
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="modalCaption" class="modal-caption"></div>
+    </div>
+    
+    <script>
+        // Modal functionality
+        function openModal(src, caption) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("modalImg");
+            var captionText = document.getElementById("modalCaption");
+            
+            modal.style.display = "block";
+            modalImg.src = src;
+            captionText.innerHTML = caption;
+        }
+        
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+        
+        // Close modal when clicking outside the image
+        window.onclick = function(event) {
+            var modal = document.getElementById("myModal");
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
